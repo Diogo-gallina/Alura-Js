@@ -11,4 +11,4 @@ const calculaMedia = (notasDaSala) =>{
 }
 console.log(`Média da sala de JS: ${calculaMedia(salaJS)}`);
 console.log(`Média da sala de Java: ${calculaMedia(salaJava)}`);
-console.log(`Média da sala de Python: ${calculaMedia(salaPython)}`);
+console.log(`Média da sala de Python: ${calculaMedia(salaPython)}`); 
