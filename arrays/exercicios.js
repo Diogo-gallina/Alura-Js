@@ -25,10 +25,30 @@
 // a) Crie um array com cinco nomes de países chamado "countries".
 // b) Ordene o array em ordem alfabética e imprima-o no console.
 
+const countries = ["Brasil", "Holanda", "México", "Arábia", "Australia"];
+
 // Nível intermediário:
 // a) Crie um array com dez números chamado "numbers".
 // b) Verifique se todos os números do array são pares.
 // c) Imprima "Todos os números são pares" ou "Existem números ímpares" no console.
+
+const numbers = [2, 2, 4, 6, 4, 2];
+
+numbers.forEach(n => {
+    result = false;
+    if (n%2 == 0){
+        result = true;
+    } else{
+        result = false;
+    }
+});
+if (result == true){
+    console.log("Contem apenas numeros pares");
+} else{
+    console.log("Contem numeros ímpares");
+}
+
+
 
 // Nível intermediário:
 // a) Crie um array com cinco nomes de cidades chamado "cities".
