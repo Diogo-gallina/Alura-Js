@@ -25,15 +25,15 @@
 //------------------------------------
 
 
+
+//---------------------------------
 // Nível intermediário:
 // a) Crie um array com cinco nomes de países chamado "countries".
 // b) Ordene o array em ordem alfabética e imprima-o no console.
-
-const countries = ["Brasil", "Holanda", "México", "Arábia", "Australia"];
-countries.sort();
-
-console.log(countries);
-
+// const countries = ["Brasil", "Holanda", "México", "Arábia", "Australia"];
+// countries.sort();
+// console.log(countries);
+//-----------------------------------
 
 
 
@@ -67,7 +67,12 @@ console.log(countries);
 // a) Crie um array com cinco nomes de cidades chamado "cities".
 // b) Crie um novo array chamado "capitalizedCities" que contenha os nomes das cidades com a primeira letra maiúscula.
 // c) Imprima o novo array no console.
+const cities = ["rio de janeiro", "são paulo", "nova york", "londres", "paris"];
+const capitalizedCities = cities.map((city) => {
+    return city.charAt(0).toUpperCase() + city.slice(1);
+});
 
+console.log(capitalizedCities);
 
 
 // Nível intermediário:
