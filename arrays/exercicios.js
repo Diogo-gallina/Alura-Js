@@ -62,23 +62,30 @@
 
 
 
-
+//-------------------------
 // Nível intermediário:
 // a) Crie um array com cinco nomes de cidades chamado "cities".
 // b) Crie um novo array chamado "capitalizedCities" que contenha os nomes das cidades com a primeira letra maiúscula.
 // c) Imprima o novo array no console.
-const cities = ["rio de janeiro", "são paulo", "nova york", "londres", "paris"];
-const capitalizedCities = cities.map((city) => {
-    return city.charAt(0).toUpperCase() + city.slice(1);
-});
+// const cities = ["rio de janeiro", "são paulo", "nova york", "londres", "paris"];
+// const capitalizedCities = cities.map((city) => {
+//     return city.charAt(0).toUpperCase() + city.slice(1);
+// });
+// console.log(capitalizedCities);
+//-------------------------
 
-console.log(capitalizedCities);
-
-
+//-----------------------------------------
 // Nível intermediário:
 // a) Crie um array com dez números aleatórios chamado "randomNumbers".
 // b) Crie um novo array chamado "doubledNumbers" que contenha cada número do array original multiplicado por 2.
 // c) Imprima o novo array no console.
+
+const random = [2, 4, 13, 24, 56, 54, 32];
+const doubledNumbers = [];
+random.forEach(num => doubledNumbers.push(num * 2));
+console.log(doubledNumbers)
+
+//-------------------------------------------
 
 // Nível intermediário:
 // a) Crie um array com cinco nomes de animais chamado "animals".
