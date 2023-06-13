@@ -17,6 +17,10 @@
 // b) Some todos os números do array e armazene o resultado em uma variável chamada "sum".
 // c) Imprima o valor da soma no console.
 
+const numbers = [10 , 15, 20, 5];
+const somaArray = numbers.reduce((acc, somaArray) => somaArray + acc, 0);
+console.log(somaArray);
+
 // Nível intermediário:
 // a) Crie um array com dez números aleatórios chamado "randomNumbers".
 // b) Encontre o maior número do array e imprima-o no console.
