@@ -1,19 +1,3 @@
-// Nível iniciante:
-// a) Crie um array vazio chamado "numbers".
-// b) Adicione os números de 1 a 10 no array.
-// c) Imprima o array no console.
-
-// Nível iniciante:
-// a) Crie um array com os números pares de 1 a 20 chamado "evenNumbers".
-// b) Imprima o array no console.
-
-// Nível iniciante:
-// a) Crie um array com cinco nomes de frutas chamado "fruits".
-// b) Adicione mais duas frutas ao array.
-// c) Imprima o array no console.
-
-
-
 
 //------------------
 // Nível intermediário:
@@ -26,20 +10,19 @@
 //-------------------
 
 
-
+//----------------------------------
 // Nível intermediário:
 // a) Crie um array com dez números aleatórios chamado "randomNumbers".
 // b) Encontre o maior número do array e imprima-o no console.
-
-const randomNumbers = [2, 5, 6, 4, 20, 45, 32, 12, 37, 29];
-let maior = randomNumbers[0]; 
-
-for (let i = 0; i < randomNumbers.length; i++) {
-  if (randomNumbers[i] > maior) {
-    maior = randomNumbers[i];
-  }
-}
-console.log(maior);
+// const randomNumbers = [2, 5, 6, 4, 20, 45, 32, 12, 37, 29];
+// let maior = randomNumbers[0]; 
+// for (let i = 0; i < randomNumbers.length; i++) {
+//   if (randomNumbers[i] > maior) {
+//     maior = randomNumbers[i];
+//   }
+// }
+// console.log(maior);
+//------------------------------------
 
 
 // Nível intermediário:
@@ -47,6 +30,9 @@ console.log(maior);
 // b) Ordene o array em ordem alfabética e imprima-o no console.
 
 const countries = ["Brasil", "Holanda", "México", "Arábia", "Australia"];
+countries.sort();
+
+console.log(countries);
 
 
 
