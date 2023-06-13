@@ -79,15 +79,33 @@
 // a) Crie um array com dez números aleatórios chamado "randomNumbers".
 // b) Crie um novo array chamado "doubledNumbers" que contenha cada número do array original multiplicado por 2.
 // c) Imprima o novo array no console.
-
-const random = [2, 4, 13, 24, 56, 54, 32];
-const doubledNumbers = [];
-random.forEach(num => doubledNumbers.push(num * 2));
-console.log(doubledNumbers)
-
+// const random = [2, 4, 13, 24, 56, 54, 32];
+// const doubledNumbers = [];
+// random.forEach(num => doubledNumbers.push(num * 2));
+// console.log(doubledNumbers)
 //-------------------------------------------
 
+
+//-------------------------------------------
 // Nível intermediário:
 // a) Crie um array com cinco nomes de animais chamado "animals".
 // b) Verifique se o array contém o animal "gato".
 // c) Imprima "O array contém o animal 'gato'" ou "O array não contém o animal 'gato'" no console.
+
+const animals = ["elefante", "cachorro", "grilo", "gato"];
+let contem = false;
+animals.forEach((animal) => {
+    if (animal.includes("gato")){
+        contem = true; 
+    }else{
+        contem = false
+    }
+});
+
+if (contem == true){
+    console.log("O array contém o animal 'gato'");
+}else{
+    console.log("O array não contém o animal 'gato'");
+}
+
+//-------------------------------------------
