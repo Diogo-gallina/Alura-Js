@@ -92,20 +92,20 @@
 // b) Verifique se o array contém o animal "gato".
 // c) Imprima "O array contém o animal 'gato'" ou "O array não contém o animal 'gato'" no console.
 
-const animals = ["elefante", "cachorro", "grilo", "gato"];
-let contem = false;
-animals.forEach((animal) => {
-    if (animal.includes("gato")){
-        contem = true; 
-    }else{
-        contem = false
-    }
-});
+// const animals = ["elefante", "cachorro", "grilo", "gato"];
+// let contem = false;
+// animals.forEach((animal) => {
+//     if (animal.includes("gato")){
+//         contem = true; 
+//     }else{
+//         contem = false
+//     }
+// });
 
-if (contem == true){
-    console.log("O array contém o animal 'gato'");
-}else{
-    console.log("O array não contém o animal 'gato'");
-}
+// if (contem == true){
+//     console.log("O array contém o animal 'gato'");
+// }else{
+//     console.log("O array não contém o animal 'gato'");
+// }
 
 //-------------------------------------------
