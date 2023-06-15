@@ -12,4 +12,4 @@ function menorValor(array, posicaoInicial){
     return maisBarato;
 }
 
-moduule.exports = menorValor;
+module.exports = menorValor;

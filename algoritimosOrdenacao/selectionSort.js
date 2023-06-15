@@ -1,8 +1,14 @@
-const livro = require("./listaLivros");
+const livros = require("./listaLivros");
 const menorValor = require("./menorValor");
 
-for(let i = 0; i < livros.length; i++){
-    if(livros[i].preco < livros[maisBarato].preco){
-       maisBarato = i;
-   }
-}
+livros.forEach((_, indice) => {
+    let menor = menorValor(livros, indice)
+   
+    let livroAtual = livros[indice];
+    let livroMenorPreco = livros[menor];
+   
+    livros[indice] = livroMenorPreco
+    livros[menor] = livroAtual 
+   })
+   
+   console.log(livros)
